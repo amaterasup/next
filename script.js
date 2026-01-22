@@ -1,4 +1,4 @@
-var hariH = new Date("Apr 29, 2025 23:00:00");
+var hariH = new Date("Apr 29, 2026 23:00:00");
 const hitung_mundur = document.getElementsByClassName("hitung-mundur")[0];
 fetchTime();
 async function fetchTime(){
@@ -507,5 +507,6 @@ window.addEventListener("resize", function () {
 });
 
 const kata_kata = `<div id=kata-kata><h1>HAPPY BIRTHDAY</h1><p>Selamat ulang tahun yang ke-18 Nay! <br> Semoga semakin bijak, dewasa dan selalu sehat untuk terus membawa kebaikan buat orang orang disekitarmu<br><br>-orang</p></div><div id=gambar><img src=https://drive.google.com/thumbnail?id=1pNxWS7TFCIRmqYOT2fD09V9law6BMULb id=g1><button id=tombol onclick=tombol()>CLICK ME!</button></div>`;
+
 
 
